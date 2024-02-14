@@ -45,25 +45,24 @@
     </header>
     <main>
         <section class="hero">
-            <div class="hero-label">
-                <div class="hero-line"></div>
-                <h5>HOTEL OPERATOR</h5>
+            <div class="hero-container">
+                <div class="hero-label">
+                    <div class="hero-line"></div>
+                    <h5>HOTEL OPERATOR</h5>
+                </div>
+                <div class="hero-content">
+                    <h1>Membantu Menjalankan <br> Operasi Bisnis Pariwisata Anda</h1>
+                    <p>GWA membantu mengoperasikan keseluruhan layanan hotel,<br> menjadikan mitra lebih percaya diri dalam menjalankan bisnis.<br><br></p>
+                </div>
+                <button class="hero-button">
+                    <h3>Konsultasikan Bisnis Saya</h3>
+                </button>
+                <div class="hero-img">
+                    <img src="{{asset('/assets/images/image 1.png')}}" alt="">
+                </div>
             </div>
-            <div class="hero-content">
-                <h1>Membantu Menjalankan <br> Operasi Bisnis Pariwisata Anda</h1>
-                <p>GWA membantu mengoperasikan keseluruhan layanan hotel,<br> menjadikan mitra lebih percaya diri dalam menjalankan bisnis.<br><br></p>
-            </div>
-            <button class="hero-button">
-                <h3>Konsultasikan Bisnis Saya</h3>
-            </button>
-            <div class="hero-img">
-                <img src="{{asset('/assets/images/image 1.png')}}" alt="">
-            </div>
-            <div class="vector-1"><img src="{{asset('/assets/images/Vector1.png')}}" alt=""></div>
-            <div class="vector-2"><img src="{{asset('/assets/images/Vector2.png')}}" alt=""></div>
-            <div class="vector-3"><img src="{{asset('/assets/images/Vector3.png')}}" alt=""></div>
-            <div class="vector-4"><img src="{{asset('/assets/images/Vector4.png')}}" alt=""></div>
-            <div class="vector-5"><img src="{{asset('/assets/images/Vector5.png')}}" alt=""></div>
+            <div class="vector-1"><img src="{{asset('/assets/images/Vector.png')}}" alt=""></div>
+            <div class="scroll"><img src="{{asset('/assets/images/Scroll.png')}}" alt=""></div>
         </section>
         <section class="workflow">
             <div class="workflow-label">
@@ -342,9 +341,9 @@
                 <div class="footer-social-media">
                     <h3>Social Media</h3>
                     <div class="link">
-                        <i class="fa fa-facebook-square" style="font-size: 52px"></i>
-                        <i class="fa fa-youtube-play" style="font-size: 52px"></i>
-                        <i class="fa fa-instagram" style="font-size: 52px"></i>
+                        <i class="fa fa-facebook-square"></i>
+                        <i class="fa fa-youtube-play"></i>
+                        <i class="fa fa-instagram"></i>
                     </div>
                 </div>
                 <div class="footer-privacy">
